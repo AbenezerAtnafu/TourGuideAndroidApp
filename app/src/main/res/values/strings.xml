@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!--    Locations -->
+    <!--    lalibela-->
+    <string name="lalibela_name">Lalibela</string>
+    <string name="lalibela_address">Ethiopia Amhara Region, North Wollo Zone</string>
+    <string name="lalibela_description">Lalibela is a town in the Amhara region of northern Ethiopia.
+        It\'s known for its distinctive rock-cut churches dating from the 12th and 13th centuries, which
+        are pilgrimage sites for Coptic Christians. Carved out of rock, the subterranean monoliths include
+        huge Bete Medhane Alem, and cross-shaped Bete Giyorgis. Many are joined by tunnels and trenches,
+        and some have carved bas-reliefs and colored frescoes inside.</string>
+    <!--axum -->
+    <string name="axum_name">Axum</string>
+    <string name="axum_address">Ethiopia Tigray Region</string>
+    <string name="axum_description">Aksum is a city in northern Ethiopia. It\'s known for its tall,
+        carved obelisks, relics of the ancient Kingdom of Aksum. Most are in the northern Stelae Park,
+        including a huge fallen pillar, now in pieces. Centuries-old St. Mary of Zion is a Christian
+        church and pilgrimage site believed to have housed the biblical Ark of the Covenant.
+        The neighboring Chapel of the Tablet is said to contain the Ark today.</string>
+    <!--abay -->
+    <string name="abay_name">Nile River</string>
+    <string name="abay_address">Ethiopia</string>
+    <string name="abay_description">The Blue Nile is so called because floods during the summer monsoon
+        erode a vast amount of fertile soil from the Ethiopian Highlands and carry it downstream as silt,
+        turning the water dark brown or almost black.</string>
+    <!--gondar -->
+    <string name="gondar_name">Gondar</string>
+    <string name="gondadr_address">Ethiopia</string>
+    <string name="gondar_description">Gondar, or Gonder, is a city in northern Ethiopia.
+        It\'s known for the walled Fasil Ghebbi fortress and palace compound, once the seat of
+        Ethiopian emperors. Dominating it is the immense 17th-century castle of Emperor Fasilides,
+        which combines Portuguese, Indian and local architectural styles. Outside the complex is
+        Debre Berhan Selassie church, with an interior of elaborate murals, including a ceiling of faces.</string>
+    <!--tiya -->
+    <string name="tiya_name">Tiya</string>
+    <string name="tiya_address">Ethiopia</string>
+    <string name="tiya_description">Tiya is a town in central Ethiopia. It is situated in the
+        Gurage Zone of the Southern Nations, Nationalities, and Peoples Region south of Addis Ababa.
+        It is also the location of an archaeological site.</string>
+    <string name="description">Description</string>
+
+    <!--    hotel-->
+    <!--    sheraton-->
+    <string name="sheraton_name">Sheraton Addis</string>
+    <string name="sheraton_address"> Taitu St, Addis Ababa 1000</string>
+    <string name="sheraton_description">Sheraton Addis, a Luxury Collection Hotel offers accommodations
+        in Addis Ababa. Guests can enjoy the outdoor pool or relax at the spa and wellness center.</string>
+    <!--    skylight-->
+    <string name="skylight_name">Sky Light Addis</string>
+    <string name="skylight_address">Airport Rd, Addis Ababa 1755</string>
+    <string name="skylight_description">Located in Addis Ababa, Ethiopian Skylight Hotel is 0.3 miles
+        from Bole International Airport and offers various facilities, such as a fitness center, swimming pool</string>
+    <!--radisson-->
+    <string name="radisson_name">Radisson blu</string>
+    <string name="radisson_address">Kazanchis Business District Kirkos Subcity 17/18 </string>
+    <string name="radisson_description">Book your Hotel in Addis Ababa online. No reservation costs.
+        Great rates. Great Availability. Special Offers. No Booking Fees. Low Rates. Highlights:
+        Founded In 1996, No Reservation Fees, Instant Confirmation Available.</string>
+
+<!--food-->
+<!--shiro-->
+    <string name="shiro_name">Shiro</string>
+    <string name="shiro_address">"Ethiopian Best food" </string>
+    <string name="shiro_description">Shiro is a stew whose primary ingredient is powdered chickpeas
+        or broad bean meal. It is often prepared with the addition of minced onions, garlic and,
+        depending upon regional variation, ground ginger or chopped tomatoes and chili-peppers.
+        Shiro is served atop injera or kitcha.</string>
+
+
+    <string name="injera_name">Injera</string>
+    <string name="injera_address">"Ethiopian Best food" </string>
+    <string name="injera_description">Injera, ənǧära እንጀራ, is a sour fermented flatbread with a
+        slightly spongy texture, traditionally made out of teff flour. It is the national dish of
+        Ethiopia and Eritrea. It is central to the dining process in those cultures as bread is the
+        most fundamental component.</string>
+<!--    kitfo-->
+    <string name="kitfo_name">Kitfo</string>
+    <string name="kitfo_address">"Ethiopian Best food" </string>
+    <string name="kitfo_description">Kitfo consists of minced raw beef, marinated in mitmita (a chili powder-based spice blend) and niter
+        kibbeh (a clarified butter infused with herbs and spices). The word comes from the
+        Ethio-Semitic root k-t-f, meaning "to chop finely; mince.</string>
+</resources>

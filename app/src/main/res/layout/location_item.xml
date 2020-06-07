@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginTop="@dimen/margin_24dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/location_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/location_name"
+        style="@style/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingStart="@dimen/padding_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/location_image" />
+
+    <TextView
+        android:id="@+id/location_address"
+        style="@style/location_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:paddingStart="@dimen/padding_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/location_name"
+        app:layout_constraintTop_toBottomOf="@+id/location_name" />
+
+    <RatingBar
+        android:id="@+id/description_rating_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@color/colorAccent"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:stepSize=".5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/location_address"
+        app:layout_constraintTop_toBottomOf="@+id/location_address" />
+
+    <TextView
+        android:id="@+id/rating_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_2dp"
+        android:paddingTop="@dimen/padding_8dp"
+        android:text="TextView"
+        android:textColor="@color/colorDivider"
+        android:textSize="@dimen/text_24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/description_rating_bar"
+        app:layout_constraintEnd_toEndOf="@+id/description_rating_bar"
+        app:layout_constraintTop_toBottomOf="@+id/description_rating_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
